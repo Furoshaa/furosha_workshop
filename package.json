@@ -11,5 +11,8 @@
     "server": "cd server && npm run dev",
     "clientbuild": "cd client && npm run build",
     "serverbuild": "cd server && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
   }
 }
